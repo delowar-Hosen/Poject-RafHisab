@@ -9,6 +9,8 @@ import Preview from "../../Components/Preview";
 import Buy from "../../Components/Buy";
 import Stock from "../../Components/Stock";
 import Cash from "../../Components/Cash";
+import Message from "../../Components/Message";
+import BackupCheck from "../../Components/Backup";
 
 const Home = () => {
   return (
@@ -38,8 +40,10 @@ const Home = () => {
               <Stock />
             </div>{" "}
             <div className="w-[32%]">
-              <Cash />
+              {/* <Cash /> */}
               {/* <Preview /> */}
+              {/* <Message /> */}
+              <BackupCheck />
             </div>
           </div>
         </div>
